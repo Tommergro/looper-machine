@@ -1,0 +1,133 @@
+html {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.col-btn {
+  display: block;
+  margin: auto;
+}
+
+.container-fluid {
+  padding: 3%
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.pad {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 4vw;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  max-width: 100%;
+  max-height: 100%;
+
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+#title{
+  margin: 5% 3% 1%;
+}
+
+@media (max-width:1199px) {
+  .pad {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (max-width:991px) {
+  .pad {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (max-width:767px) {
+  .pad {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media (max-width:575px) {
+  .pad {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+/* ------------------------ colors for the different pads ----------------------*/
+.q {
+  background: rgb(225,175,255);
+  background: radial-gradient(circle, rgba(225,175,255,1) 0%, rgba(166,22,255,1) 50%);
+}
+
+.w {
+  background: rgb(236,205,244);
+  background: radial-gradient(circle, rgba(236,205,244,1) 0%, rgba(216,79,249,1) 50%);
+}
+
+.e {
+  background: rgb(254,153,225);
+  background: radial-gradient(circle, rgba(254,153,225,0.9028653697807247) 0%, rgba(255,22,188,0.8244339972317052) 50%);
+}
+
+.a {
+  background: rgb(159,156,255);
+  background: radial-gradient(circle, rgba(159,156,255,1) 0%, rgba(29,22,255,1) 50%);
+}
+
+.s {
+  background: rgb(133,158,255);
+  background: radial-gradient(circle, rgba(133,158,255,1) 0%, rgba(23,71,255,1) 50%);
+}
+
+.d {
+  background: rgb(151,225,255);
+  background: radial-gradient(circle, rgba(151,225,255,1) 0%, rgba(23,188,255,1) 50%);
+}
+
+.z {
+  background: rgb(183,255,230);
+  background: radial-gradient(circle, rgba(183,255,230,1) 0%, rgba(22,255,173,1) 50%);
+}
+
+.x {
+  background: rgb(163,255,187);
+  background: radial-gradient(circle, rgba(163,255,187,1) 0%, rgba(22,255,83,1) 50%);
+}
+
+.c{
+  background: rgb(208,255,187);
+  background: radial-gradient(circle, rgba(208,255,187,1) 0%, rgba(94,255,22,1) 50%);
+}
